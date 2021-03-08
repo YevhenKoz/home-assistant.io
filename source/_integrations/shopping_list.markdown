@@ -61,9 +61,10 @@ This is tested to work with the Android companion app.
 
 ```yaml
 service: notify.notify
-title: "Time to shop?"
-message: 'Click to open the shopping list'
 data:
+ title: "Time to shop?"
+ message: 'Click to open the shopping list'
+ data:
   clickAction: "/shopping-list"
   url: "/shopping-list"
 ```
